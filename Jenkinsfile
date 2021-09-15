@@ -1,6 +1,7 @@
-@Library('unittest-lib')_
+@Library('shared-lib')_
 
- stage('Demo') {
-     echo 'Hello world'
-     sayHello 'Dave'
+node {
+ stage('Test') {
+  temp(35)
  }
+}
