@@ -1,7 +1,7 @@
 @Library('shared-lib')_
 
 node {
- stage('Test') {
+ stage('Temperature Conversion') {
    temp(98)
  }
 }
