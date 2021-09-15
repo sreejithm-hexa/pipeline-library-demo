@@ -1,4 +1,4 @@
 def call(int val) {
-      int celcius = (val - 32) * 5 / 9
-      bat 'echo ${celcius}'
+      def celcius = 0
+      println (val - 32) * 5 / 9
 }
