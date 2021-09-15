@@ -2,6 +2,6 @@
 
 node {
  stage('Test') {
-   temp(35)
+   temp(98)
  }
 }
