@@ -1,7 +1,6 @@
-def call(int temp) {
-  class Converter {
-    static celsius (temp) { 
-      return (temp - 32) * 5 / 9
+def call(int val) {
+    static celsius (val) { 
+      return (val - 32) * 5 / 9
     }
-}
+
 }
