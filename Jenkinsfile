@@ -2,6 +2,6 @@
 
 node {
  stage('Test') {
-  temp(35)
+  def temp(35)
  }
 }
