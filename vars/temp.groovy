@@ -1,4 +1,4 @@
 def call(int val) {
-      return (${val} - 32) * 5 / 9
+      bat 'return (${val} - 32) * 5 / 9'
 
 }
